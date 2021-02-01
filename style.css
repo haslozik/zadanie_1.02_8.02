@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+    color: #222;
+}
+
+#content {
+    width: 100%;
+    height: 92vh;
+    background-image: url('header-background.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    color: pink;
+    padding: 0 15px 0 15px;
+}
+
+#contactNav li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+
+#mainText {
+    flex-direction: column;
+    color: #fff;
+}
+
+#mainText span {
+    color: pink;
+}
+
+/*min width 1024px*/
