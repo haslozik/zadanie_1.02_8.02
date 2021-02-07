@@ -28,7 +28,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    color: pink;
+    color: #ef7998;
     padding: 0 15px 0 15px;
     font-size: 23px;
 }
@@ -75,7 +75,7 @@ nav li {
 }
 
 #mainText span {
-    color: pink;
+    color: #ef7998;
     font-size: 55px;
 }
 
@@ -121,7 +121,7 @@ nav li {
 
 #aboutUs span {
     font-size: 55px;
-    color: pink;
+    color: #ef7998;
 }
 
 #aboutUs button {
@@ -163,7 +163,7 @@ nav li {
 
 #footer span {
     font-size: 55px;
-    color: pink;
+    color: #ef7998;
 }
 
 #footer p {
@@ -206,7 +206,7 @@ nav li {
     height: 35px;
     width: 15%;
     font-size: 18px;
-    background: pink;
+    background: #ef7998;
     border: none;
     cursor: pointer;
 }
