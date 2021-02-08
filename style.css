@@ -30,7 +30,7 @@ nav li {
     display: inline-block;
     color: #ef7998;
     padding: 0 15px 0 15px;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 #contactNav button {
@@ -38,7 +38,8 @@ nav li {
     padding: 5px;
     border-radius: 3px;
     background: #fff;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-right: 35px;
     cursor: pointer;
 }
 
@@ -76,11 +77,12 @@ nav li {
 
 #mainText span {
     color: #ef7998;
-    font-size: 55px;
+    font-size: 63px;
+    font-weight: 700;
 }
 
 #mainText button {
-    border: 2px solid #000;
+    border: 3px solid #000;
     border-radius: 4px;
     font-weight: 700;
     font-size: 18px;
@@ -120,14 +122,15 @@ nav li {
 }
 
 #aboutUs span {
-    font-size: 55px;
+    font-size: 63px;
     color: #ef7998;
+    font-weight: 700;
 }
 
 #aboutUs button {
-    border: 2px solid #000;
+    border: 1px solid #000;
     border-radius: 4px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     height: 45px;
     width: 105px;
@@ -162,8 +165,9 @@ nav li {
 }
 
 #footer span {
-    font-size: 55px;
+    font-size: 63px;
     color: #ef7998;
+    font-weight: 700;
 }
 
 #footer p {
@@ -174,9 +178,9 @@ nav li {
 #footer li {
     display: inline-block;
     font-size: 17px;
-    color: #333;
-    border: 1px solid #333;
-    border-radius: 3px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
     padding: 10px;
     margin: 0 30px 0 30px;
     margin-bottom: 30px;
@@ -185,7 +189,7 @@ nav li {
 
 /*footer search input*/
 #search {
-    width: 20%;
+    width: 30%;
     margin: 20px auto 0 auto;
     height: 35px;
     cursor: pointer;
@@ -196,15 +200,22 @@ nav li {
     padding: 10px;
     border-radius: 3px;
     float: left;
-    width: 85%;
+    width: 92%;
     height: 35px;
-    border: none;
+    border: 1px solid #ddd;
+}
+
+#search input::placeholder {
+    opacity: 1;
+    color: #888;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 #search button {
     float: left;
     height: 35px;
-    width: 15%;
+    width: 8%;
     font-size: 18px;
     background: #ef7998;
     border: none;
